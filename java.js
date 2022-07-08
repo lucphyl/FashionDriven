@@ -1,9 +1,15 @@
+// nome do usuario
+let dono = prompt ("por favor digite seu nome");
+objeto.owner= dono;
+
+//variaveis simples
 let esc1 = 0;
 let esc2 = 0;
 let esc3 = 0;
 let pedido = esc1+esc2+esc3;
 let estampaURL = document.querySelector(".imagemURl");
 
+// objeto para postar
 let objeto = {
 model: "",
 neck: "",
@@ -13,11 +19,10 @@ owner: "",
 author: "",
 }
 
-
-
+//escolhas do usuario
 function escolhaModelo (elemento,modelo) {
     const selecionado = document.querySelector(".selecionado");
-    const borda = document.querySelector(".borda");
+    const borda = document.querySelector(".selecionado");
 
     if (selecionado !== null){
         selecionado.classList.remove("selecionado");
@@ -28,12 +33,11 @@ function escolhaModelo (elemento,modelo) {
     elemento.classList.add("selecionado");
     esc1 = 1;
     objeto.model= modelo;
-    console.table(objeto);
 }
 
-function escolhaGola (elemento) {
+function escolhaGola (elemento,gola) {
     const selecionado = document.querySelector(".selecionado1");
-    const borda = document.querySelector(".borda");
+    const borda = document.querySelector(".selecionado1");
 
     if (selecionado !== null){
         selecionado.classList.remove("selecionado1");
@@ -43,11 +47,12 @@ function escolhaGola (elemento) {
     elemento.classList.remove("borda");
     elemento.classList.add("selecionado1");
     esc2 =1;
+    objeto.neck= gola;
 }
 
-function escolhaTecido (elemento) {
+function escolhaTecido (elemento,tecido) {
     const selecionado = document.querySelector(".selecionado2");
-    const borda = document.querySelector(".borda");
+    const borda = document.querySelector(".selecionado2");
 
     if (selecionado !== null){
         selecionado.classList.remove("selecionado2");
@@ -57,14 +62,15 @@ function escolhaTecido (elemento) {
     elemento.classList.remove("borda");
     elemento.classList.add("selecionado2");
     esc3 =1;
-   
+    objeto.material= tecido;
+    
 }
 
-while(estampaURL.value!==""){
-    liberarBotao ()
-}
-
+//liberar botão
 function liberarBotao (){
-    console.log(estampaURL.value);
-    alert("funcionou :)");
+    
+    const livre = document.querySelector(".botaoFechado");
+    livre.classList.remove("botaoFechado");
+    livre.classList.add("liberado")
+    
 }

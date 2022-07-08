@@ -20,7 +20,6 @@
 .pedido{
     margin-top: 40px;
     width:50%;
-    
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -30,7 +29,6 @@
 .escolhas{
     height:700px;
     width: 400px;
-    
 }
 
 .modelo p {
@@ -42,8 +40,7 @@
     text-align: left;    
 }
 .gola {
-    margin-top: 30px;
-    
+    margin-top: 20px;
 }
 .gola p {
     font-family: Roboto;
@@ -55,8 +52,7 @@
 }
 
 .tecido {
-    margin-top: 30px;
-    
+    margin-top: 20px;
 }
 .tecido p {
     font-family: Roboto;
@@ -97,14 +93,13 @@
 .cada{
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
 }
 .cada div {
     width:100px;
     height: 100px;
     background-color: #F2F2F2;
     border-radius: 50px;
-
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -146,7 +141,6 @@
     align-items:center;
     justify-content: center;
 }
-
 .botaoFechado p{
     font-family: Roboto;
     font-size: 20px;
@@ -154,7 +148,24 @@
     line-height: 23px;
     letter-spacing: 0em;
     text-align: left;
-
+}
+.liberado {
+    height: 40px;
+    width: 400px;
+    border-radius:10px;;
+    margin-top: 25px;
+    background: #404EED;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.liberado p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 
