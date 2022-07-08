@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="topo">
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><img src="imagens/Logo.png"></a>
+    </div>
+    <div class="conteudo">
+        <div class="pedido">
+            <div class="escolhas">
+                <div class="modelo">
+                    <p>escolha o modelo</p>
+                    <div class="escolha">
+                        <div class="cada" >
+                            <div class="modeloEscolha borda" onclick="escolhaModelo(this,'Tshirt')">
+                                <img src="imagens/tshirt.png">
+                            </div>
+                            <p>T-shirt</p>
+                        </div>
+                        <div class="cada"  >
+                            <div class="modeloEscolha borda" onclick="escolhaModelo(this, 'long')">
+                                <img src="imagens/Camiseta.png">
+                            </div>
+                            <p>Camiseta</p>
+                        </div>
+                        <div class="cada"  >
+                            <div class="modeloEscolha borda" onclick="escolhaModelo(this, 'top-tank')">
+                                <img src="imagens/Mangalonga.png">
+                            </div>
+                            <p>Mangalonga</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gola">
+                    <p> escolha a gola</p>
+                    <div class="escolha">
+                        <div class="cada" >
+                            <div class="golaEscolha borda" onclick="escolhaGola(this)" >
+                                <img src="imagens/GolaV.png">
+                            </div>
+                            <p>Gola V</p>
+                        </div>
+                        <div class="cada" >
+                            <div class="golaEscolha borda" onclick="escolhaGola(this)">
+                                <img src="imagens/GolaRedonda.png">
+                            </div>
+                            <p>Gola Redonda</p>
+                        </div>
+                        <div class="cada" >
+                            <div class="golaEscolha borda" onclick="escolhaGola(this)">
+                                <img src="imagens/GolaPolo.png">
+                            </div>
+                            <p>Gola Polo</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tecido">
+                    <p>escolha o tecido</p>
+                    <div class="escolha">
+                        <div class="cada" >
+                            <div class="tecidoEscolha borda" onclick="escolhaTecido(this)">
+                                <img src="imagens/Seda.png">
+                            </div>
+                            <p>Seda</p>
+                        </div>
+                        <div class="cada" >
+                            <div class="tecidoEscolha borda" onclick="escolhaTecido(this)">
+                                <img src="imagens/Algodão.png">
+                            </div>
+                            <p>Algodão</p>
+                        </div>
+                        <div class="cada" >
+                            <div class="tecidoEscolha borda" onclick="escolhaTecido(this)">
+                                <img src="imagens/Poliester.png">
+                            </div>
+                            <p>Poliester</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imagem">
+                    <p>Imagem de referência</p>
+                    <input type="text" class="imagemURl">
+                </div>
+                
+                <div class="botaoFechado">
+                    <p>Confirmar pedido</p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="arte">
+            <img src="imagens/ilustração.png" >
+        </div>
+
+    </div>
+    
+    <script src="java.js"></script>
+</body>
+</html>

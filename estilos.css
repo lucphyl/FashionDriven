@@ -1,0 +1,178 @@
+.topo{
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    background-color: #404EED;
+    display: flex;
+    align-items: center;
+}
+.topo a {
+     margin-left: 80px;
+}
+
+.conteudo{
+    width: 100%;
+    display: flex;
+    margin-top: 90px;
+}
+
+.pedido{
+    margin-top: 40px;
+    width:50%;
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.escolhas{
+    height:700px;
+    width: 400px;
+    
+}
+
+.modelo p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.gola {
+    margin-top: 30px;
+    
+}
+.gola p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.tecido {
+    margin-top: 30px;
+    
+}
+.tecido p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.imagem {
+    margin-top: 30px;
+    
+}
+.imagem p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+.imagem input{
+    Width:394px;
+    Height: 40px;
+    margin-top: 10px;
+    background-color: #F2F2F2;
+    border-radius: 10px;;
+}
+
+
+.escolha{
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cada{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.cada div {
+    width:100px;
+    height: 100px;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+.cada p {
+    margin-top:3px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.cada img{
+    width: 75px;
+    height: 75px;
+}
+
+.borda{
+    border: 0.5px solid #C4C4C4;
+}
+
+.arte{
+    width: 50%;
+    background:#404EED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaoFechado {
+    height: 40px;
+    width: 400px;
+    border-radius:10px;;
+    margin-top: 25px;
+    background: #C4C4C4;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.botaoFechado p{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+
+
+
+.display{ 
+    display: none;
+}
+.selecionado{
+    border: 5px solid #404EED;
+    border-radius: 50%;
+}
+.selecionado1{
+    border: 5px solid #404EED;
+    border-radius: 50%;
+}
+.selecionado2{
+    border: 5px solid #404EED;
+    border-radius: 50%;
+}
