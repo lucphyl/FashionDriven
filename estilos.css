@@ -6,6 +6,7 @@
     background-color: #404EED;
     display: flex;
     align-items: center;
+    z-index: 2;
 }
 .topo a {
      margin-left: 80px;
@@ -124,11 +125,15 @@
 }
 
 .arte{
+    height:750px;
     width: 50%;
     background:#404EED;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.arte img {
+    width: 100%;
 }
 
 .botaoFechado {
@@ -168,8 +173,54 @@
     text-align: left;
 }
 
+.ultimos{
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+}
+.ultimos p {
+    margin-top: 30px;
+    margin-left:80px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
 
+.ultimos div{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.recente{
+    margin-left: 15px;
+    width: 200px;
+    height: 245px;
+    background-color:#FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.recente img {
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 180px;
+    height: 180px;
+}
+.recente h1 {
+    text-align: center;
+    margin-top: 5px;
+    Font: Roboto;
+    font-size: 20px;
+    Line-height: 23.44px;
+}
 
 
 .display{ 
@@ -186,4 +237,13 @@
 .selecionado2{
     border: 5px solid #404EED;
     border-radius: 50%;
+}
+
+@media (max-width:620px){
+    .arte{
+        display: none;
+    }
+    .pedido {
+        width: 100%;
+    }
 }

@@ -63,14 +63,14 @@ function escolhaTecido (elemento,tecido) {
     elemento.classList.add("selecionado2");
     esc3 =1;
     objeto.material= tecido;
-    
 }
 
 //liberar botão
 function liberarBotao (){
     
     const livre = document.querySelector(".botaoFechado");
-    livre.classList.remove("botaoFechado");
-    livre.classList.add("liberado")
-    
+    if ( pedido===3 && estampaURL.value == true){
+        livre.classList.remove("botaoFechado");
+        livre.classList.add("liberado")
+    }
 }
