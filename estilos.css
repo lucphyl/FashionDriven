@@ -6,7 +6,7 @@
     background-color: #404EED;
     display: flex;
     align-items: center;
-    z-index: 2;
+
 }
 .topo a {
      margin-left: 80px;
@@ -133,7 +133,8 @@
     justify-content: center;
 }
 .arte img {
-    width: 100%;
+    width: 80%;
+    height:100%;
 }
 
 .botaoFechado {
@@ -237,6 +238,17 @@
 .selecionado2{
     border: 5px solid #404EED;
     border-radius: 50%;
+}
+
+.imagem div {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem ion-icon{
+    font-size: 45px;
+    margin-left: 5px;
 }
 
 @media (max-width:620px){
