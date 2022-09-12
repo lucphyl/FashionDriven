@@ -174,13 +174,12 @@
     text-align: left;
 }
 
-.ultimos{
+.pedidos{
     width: 100%;
     background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
+    margin-top: 20px;
 }
-.ultimos p {
+.pedidos p {
     margin-top: 30px;
     margin-left:80px;
     font-family: Roboto;
@@ -192,7 +191,7 @@
     
 }
 
-.ultimos div{
+.pedidos div{
     margin-top: 15px;
     margin-bottom: 35px;
     margin-left: 40px;
@@ -200,24 +199,33 @@
     flex-wrap: wrap;
 }
 
+.ultimos{
+    margin-left:40px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
 .recente{
     margin-left: 15px;
     width: 200px;
     height: 245px;
-    background-color:#FFFFFF;
+    background-color:#ffff;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    justify-content:center;
+}
+.recente:hover{
+    background-color:gray
 }
 .recente img {
     margin-left: 10px;
     margin-top: 15px;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
 }
 .recente h1 {
+    margin: 25px;
     text-align: center;
-    margin-top: 5px;
     Font: Roboto;
     font-size: 20px;
     Line-height: 23.44px;
